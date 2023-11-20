@@ -1,0 +1,22 @@
+<nav class="{% if $page.title == 'Starkos - Services' %} services_nav{% endif %} {% if $page.title == 'Estimate' %} nav_with_black_color bg-white {% endif %} navbar navbar-dark navbar-expand-lg fixed-top navbar navbar-transparent navbar-expand-lg fixed-top bg-transparent" id="mainNav">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">
+      <img src="{{ site.baseurl }}/assets/img/logo-omnitrust-no-bg.png" style="width: 150px;">
+      <!-- OmniTrust Payments -->
+    </a>
+      <button class="navbar-toggler navbar-toggler-right bg-transparent" id="menu_burger">
+        <i class="fa fa-bars  fa-2x"></i>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto text-uppercase">
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{ site.baseurl }}/">Home</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{ site.baseurl }}/about">About</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{ site.baseurl }}/services">Services</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{ site.baseurl }}/pricing">Pricing</a></li> 
+                <li class="nav-item"></li>
+                <li class="nav-item"></li>
+                <li class="nav-item  estimate-button"><a class="nav-link js-scroll-trigger" href="{{ site.baseurl }}/estimate" >Let's connect</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
