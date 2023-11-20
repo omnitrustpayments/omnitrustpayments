@@ -735,7 +735,9 @@ header.masthead .intro-text{
   color:white;
   transform: translate(-50%,-50%);
 }
-
+.busineses_intro_text{ 
+  color:white; 
+}
 .busineses-carusel .content{
   display: flex;
   justify-content: center;
@@ -922,10 +924,7 @@ header.masthead .intro-text{
 .bg-black{
   background-color: #000 !important;
 }
-
-.bg-green{
-  background-color:white !important;
-}
+ 
 .bg-celadon{
   background-color:#88D498 !important;
   
@@ -957,7 +956,14 @@ header.masthead .intro-text{
   height: 100%;
   background: rgba(0,0,0,0.5);
 }
-
+.trusted_part::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; 
+}
 .services-header{
   height: 750px;
   display: flex;
